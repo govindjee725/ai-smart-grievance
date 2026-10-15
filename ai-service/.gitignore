@@ -1,0 +1,79 @@
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Python packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+wheels/
+pip-wheel-metadata/
+
+# Testing and coverage
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+
+# Type checking and linting
+.mypy_cache/
+.pyre/
+.ruff_cache/
+.dmypy.json
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# IDEs and editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+logs/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Database files
+*.sqlite3
+*.db
+
+# Model checkpoints and large ML files
+*.h5
+*.hdf5
+*.keras
+*.pt
+*.pth
+*.onnx
+*.pkl
+*.joblib
+*.safetensors
+
+# Uploads and generated data
+uploads/
+temp/
+tmp/
+
+# Distribution and build artifacts
+pip-log.txt
